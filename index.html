@@ -47,8 +47,75 @@
 <a name="resource-url" class="anchor" href="#resource-url"><span class="octicon octicon-link"></span></a>Resource URL</h2>
 
 <ul>
-<li><a href="http://1gaoxiao.com/api/hot?per_page=10&amp;page_th=0">http://1gaoxiao.com/api/hot?per_page=10&amp;page_th=0</a></li>
-</ul>
+<li><a href="http://1gaoxiao.com/api/%7Bsection%7D?per_page=%7BpageSize%7D&amp;page_th=%7BpageNumber%7D">http://1gaoxiao.com/api/{section}?per_page={pageSize}&amp;page_th={pageNumber}</a></li>
+</ul><h2>
+<a name="%E5%8F%82%E6%95%B0" class="anchor" href="#%E5%8F%82%E6%95%B0"><span class="octicon octicon-link"></span></a>参数</h2>
+
+<table>
+<thead><tr>
+<th>参数名称</th>
+<th>描述</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>
+<strong>section</strong><br><em>必需</em>
+</td>
+<td>现在支持的参数值可以是(<code>hot</code>,<code>trending</code>,<code>fresh</code>)</td>
+</tr>
+<tr>
+<td>
+<strong>pageSize</strong><br><em>必需</em>
+</td>
+<td>每页加载记录条数，如<code>10</code>
+</td>
+</tr>
+<tr>
+<td>
+<strong>pageNumber</strong><br><em>必需</em>
+</td>
+<td>加载第几页，如：加载第一页，则写<code>0</code>
+</td>
+</tr>
+</tbody>
+</table><h2>
+<a name="%E8%AF%B7%E6%B1%82%E5%AE%9E%E4%BE%8B" class="anchor" href="#%E8%AF%B7%E6%B1%82%E5%AE%9E%E4%BE%8B"><span class="octicon octicon-link"></span></a>请求实例</h2>
+
+<p><strong>GET</strong> <code>http://www.1gaoxiao.com/api/hot?per_page=10&amp;page_th=0</code></p>
+
+<pre><code>    {
+            data: [
+                      {
+                          id: "101",
+                          gid: "Cziaxlr.",
+                          score: "86",
+                          title: "我TM坐着好好的招谁惹谁了啊",
+                          url: "Cziaxlr.jpg",
+                          comments: "5",
+                          images: {
+                                small: "http://gaoxiao1.qiniudn.com/Cziaxlr.jpg/460s",
+                                large: "http://gaoxiao1.qiniudn.com/Cziaxlr.jpg/700b"
+                          }
+                      },
+                      ···
+            ]
+    }
+</code></pre>
+
+<h2>
+<a name="%E6%9B%B4%E5%A4%9A%E6%8E%A5%E5%8F%A3" class="anchor" href="#%E6%9B%B4%E5%A4%9A%E6%8E%A5%E5%8F%A3"><span class="octicon octicon-link"></span></a>更多接口</h2>
+
+<p>开发中，敬请期待！</p>
+
+<h2>
+<a name="%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5" class="anchor" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="octicon octicon-link"></span></a>最佳实践</h2>
+
+<p>敬请期待！</p>
+
+<h2>
+<a name="%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99" class="anchor" href="#%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99"><span class="octicon octicon-link"></span></a>官方网站</h2>
+
+<p><a href="http://1gaoxiao.com/">1GAOXIAO</a></p>
       </section>
 
     </div>
