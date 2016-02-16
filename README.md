@@ -1,11 +1,11 @@
-1gaoxiao API
+Boluoboluomi API
 ============
 
-The API of a funny website 1GAOXIAO
+The API of a funny website boluoboluomi.com
 
 Resource URL
 ------------
-- http://1gaoxiao.com/api/{section}?per_page={pageSize}&page_th={pageNumber}
+- http://boluoboluomi.com/api/{section}?per_page={pageSize}&page_th={pageNumber}
 
 参数
 ----
@@ -19,7 +19,7 @@ Resource URL
 请求实例
 --------
 
-**GET** `http://www.1gaoxiao.com/api/hot?per_page=10&page_th=0`
+**GET** `http://www.boluoboluomi.com/api/hot?per_page=10&page_th=0`
 
         {
                 data: [
@@ -50,4 +50,4 @@ Resource URL
 
 官方网站
 --------
-[1GAOXIAO](http://1gaoxiao.com/)
+[菠萝菠萝蜜](http://http://www.boluoboluomi.com/)
