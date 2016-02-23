@@ -50,4 +50,4 @@ Resource URL
 
 官方网站
 --------
-[菠萝菠萝蜜](http://http://www.boluoboluomi.com/)
+[菠萝菠萝蜜](http://www.boluoboluomi.com/)
